@@ -1,0 +1,41 @@
+[
+    {
+        "function_name": "proc",
+        "line_number": 49,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 50,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    },
+    {
+        "function_name": "mux",
+        "line_number": 59,
+        "loops": [
+            {
+                "loop_index": 1,
+                "parent_index": null,
+                "line_number": 61,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    },
+    {
+        "function_name": "demux",
+        "line_number": 70,
+        "loops": [
+            {
+                "loop_index": 2,
+                "parent_index": null,
+                "line_number": 72,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

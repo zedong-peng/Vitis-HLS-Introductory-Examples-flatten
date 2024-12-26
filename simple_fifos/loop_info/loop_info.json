@@ -1,0 +1,54 @@
+[
+    {
+        "function_name": "funcA",
+        "line_number": 56,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 59,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    },
+    {
+        "function_name": "funcB",
+        "line_number": 66,
+        "loops": [
+            {
+                "loop_index": 1,
+                "parent_index": null,
+                "line_number": 69,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    },
+    {
+        "function_name": "funcC",
+        "line_number": 74,
+        "loops": [
+            {
+                "loop_index": 2,
+                "parent_index": null,
+                "line_number": 77,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    },
+    {
+        "function_name": "funcD",
+        "line_number": 82,
+        "loops": [
+            {
+                "loop_index": 3,
+                "parent_index": null,
+                "line_number": 85,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

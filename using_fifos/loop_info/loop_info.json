@@ -1,0 +1,15 @@
+[
+    {
+        "function_name": "load",
+        "line_number": 84,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 86,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

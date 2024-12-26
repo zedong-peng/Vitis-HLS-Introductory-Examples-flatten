@@ -1,0 +1,22 @@
+[
+    {
+        "function_name": "process",
+        "line_number": 123,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 125,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            },
+            {
+                "loop_index": 1,
+                "parent_index": null,
+                "line_number": 130,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

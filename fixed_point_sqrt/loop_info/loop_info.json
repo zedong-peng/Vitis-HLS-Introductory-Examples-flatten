@@ -1,0 +1,15 @@
+[
+    {
+        "function_name": "fxp_sqrt",
+        "line_number": 108,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 126,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

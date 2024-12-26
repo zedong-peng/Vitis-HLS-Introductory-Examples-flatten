@@ -1,0 +1,15 @@
+[
+    {
+        "function_name": "array_mem_bottleneck",
+        "line_number": 52,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 58,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

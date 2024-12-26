@@ -1,5 +1,0 @@
-{
-  "name": "native_casts",
-  "description": "This example shows how to use native C type casts in a synthesizable design.",
-  "hls": {"config": "hls_config.cfg"}
-}

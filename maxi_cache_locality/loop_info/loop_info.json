@@ -1,0 +1,15 @@
+[
+    {
+        "function_name": "dut",
+        "line_number": 19,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 30,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

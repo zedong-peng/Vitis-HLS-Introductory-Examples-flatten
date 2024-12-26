@@ -1,0 +1,41 @@
+[
+    {
+        "function_name": "sfunc2",
+        "line_number": 40,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 41,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    },
+    {
+        "function_name": "sfunc1",
+        "line_number": 45,
+        "loops": [
+            {
+                "loop_index": 1,
+                "parent_index": null,
+                "line_number": 50,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    },
+    {
+        "function_name": "sfunc3",
+        "line_number": 56,
+        "loops": [
+            {
+                "loop_index": 2,
+                "parent_index": null,
+                "line_number": 59,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

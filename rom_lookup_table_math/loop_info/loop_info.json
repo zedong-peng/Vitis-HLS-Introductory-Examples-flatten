@@ -1,0 +1,15 @@
+[
+    {
+        "function_name": "init_sin_table",
+        "line_number": 54,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 56,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]

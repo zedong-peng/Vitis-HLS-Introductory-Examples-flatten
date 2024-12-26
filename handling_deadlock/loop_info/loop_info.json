@@ -1,0 +1,28 @@
+[
+    {
+        "function_name": "read_in",
+        "line_number": 58,
+        "loops": [
+            {
+                "loop_index": 0,
+                "parent_index": null,
+                "line_number": 59,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    },
+    {
+        "function_name": "write_out",
+        "line_number": 63,
+        "loops": [
+            {
+                "loop_index": 1,
+                "parent_index": null,
+                "line_number": 64,
+                "loop_kind": "FOR_STMT",
+                "nested_loops": []
+            }
+        ]
+    }
+]
