@@ -1,0 +1,32 @@
+[
+    {
+        "array_name": "res",
+        "dimensions": 1,
+        "size_per_dimension": [
+            32
+        ],
+        "line_per_dimension": [
+            73
+        ]
+    },
+    {
+        "array_name": "lhs",
+        "dimensions": 1,
+        "size_per_dimension": [
+            32
+        ],
+        "line_per_dimension": [
+            73
+        ]
+    },
+    {
+        "array_name": "rhs",
+        "dimensions": 1,
+        "size_per_dimension": [
+            32
+        ],
+        "line_per_dimension": [
+            73
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/using_axis_array_stream_no_side_channel_data/combined.cpp)",
+    "children": [
+        {
+            "line": 24,
+            "tripcount": 50,
+            "name": "for_loop Line:24"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'user' on host 'RTX4090' (Linux_x86_64 version 6.8.0-52-generic) on Fri Apr 11 01:12:43 CST 2025
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'run_hls.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset project 
+INFO: [HLS 200-10] Creating and opening project '/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project'.
+INFO: [HLS 200-1510] Running: set_top test 
+INFO: [HLS 200-1510] Running: add_files combined.cpp 
+INFO: [HLS 200-10] Adding design file 'combined.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -reset solution1 
+INFO: [HLS 200-10] Creating and opening solution '/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 10 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 226.277 MB.
+INFO: [HLS 200-10] Analyzing design file 'combined.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 2.88 seconds. CPU system time: 0.44 seconds. Elapsed time: 4.74 seconds; current allocated memory: 228.359 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 371 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 50 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 44 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 45 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/global_array_RAM/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.56 seconds. CPU system time: 0.35 seconds. Elapsed time: 9.68 seconds; current allocated memory: 230.062 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 230.062 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 230.062 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 230.062 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 250.469 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 250.469 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'test' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'test' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.03 seconds; current allocated memory: 250.469 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 250.469 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'test' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'test/i' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'test' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'test'.
+INFO: [RTMG 210-278] Implementing memory 'test_B_RAM_2P_LUTRAM_1R1W' using distributed RAMs.
+INFO: [RTMG 210-278] Implementing memory 'test_C_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'test_A_RAM_2P_BRAM_1R1W' using block RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 250.469 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 250.469 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.11 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.12 seconds; current allocated memory: 250.469 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for test.
+INFO: [VLOG 209-307] Generating Verilog RTL for test.
+INFO: [HLS 200-789] **** Estimated Fmax: 291.18 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 6.8 seconds. CPU system time: 0.84 seconds. Elapsed time: 14.83 seconds; current allocated memory: 24.191 MB.
+INFO: [HLS 200-1510] Running: close_solution 
+INFO: [HLS 200-112] Total CPU user time: 8.08 seconds. Total CPU system time: 1 seconds. Total elapsed time: 16.65 seconds; peak allocated memory: 250.469 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Fri Apr 11 01:12:59 2025...

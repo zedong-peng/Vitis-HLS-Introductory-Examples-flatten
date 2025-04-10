@@ -1,0 +1,32 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/lmem_2rw/combined.cpp)",
+    "children": [
+        {
+            "line": 60,
+            "tripcount": 16,
+            "name": "for_loop Line:60",
+            "children": [
+                {
+                    "line": 68,
+                    "tripcount": 16,
+                    "name": "for_loop Line:68"
+                },
+                {
+                    "line": 73,
+                    "tripcount": 16,
+                    "name": "for_loop Line:73"
+                },
+                {
+                    "line": 92,
+                    "tripcount": 16,
+                    "name": "for_loop Line:92"
+                },
+                {
+                    "line": 102,
+                    "tripcount": 16,
+                    "name": "for_loop Line:102"
+                }
+            ]
+        }
+    ]
+}

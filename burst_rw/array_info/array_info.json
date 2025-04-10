@@ -1,0 +1,12 @@
+[
+    {
+        "array_name": "a",
+        "dimensions": 1,
+        "size_per_dimension": [
+            2048
+        ],
+        "line_per_dimension": [
+            36
+        ]
+    }
+]

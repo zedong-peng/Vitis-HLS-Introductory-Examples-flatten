@@ -1,0 +1,22 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/auto_burst_inference_failure/combined.cpp)",
+    "children": [
+        {
+            "line": 43,
+            "tripcount": 10,
+            "name": "for_loop Line:43"
+        },
+        {
+            "line": 47,
+            "tripcount": 16,
+            "name": "for_loop Line:47",
+            "children": [
+                {
+                    "line": 48,
+                    "tripcount": 16,
+                    "name": "for_loop Line:48"
+                }
+            ]
+        }
+    ]
+}

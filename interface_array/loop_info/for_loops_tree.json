@@ -1,0 +1,15 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_array/combined.cpp)",
+    "children": [
+        {
+            "line": 76,
+            "tripcount": 16,
+            "name": "for_loop Line:76"
+        },
+        {
+            "line": 84,
+            "tripcount": 16,
+            "name": "for_loop Line:84"
+        }
+    ]
+}

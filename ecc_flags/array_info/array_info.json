@@ -1,0 +1,32 @@
+[
+    {
+        "array_name": "in1",
+        "dimensions": 1,
+        "size_per_dimension": [
+            10
+        ],
+        "line_per_dimension": [
+            65
+        ]
+    },
+    {
+        "array_name": "in2",
+        "dimensions": 1,
+        "size_per_dimension": [
+            10
+        ],
+        "line_per_dimension": [
+            65
+        ]
+    },
+    {
+        "array_name": "output",
+        "dimensions": 1,
+        "size_per_dimension": [
+            10
+        ],
+        "line_per_dimension": [
+            65
+        ]
+    }
+]

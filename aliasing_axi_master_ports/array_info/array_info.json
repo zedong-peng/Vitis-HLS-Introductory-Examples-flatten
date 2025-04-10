@@ -1,0 +1,22 @@
+[
+    {
+        "array_name": "aximA",
+        "dimensions": 1,
+        "size_per_dimension": [
+            1024
+        ],
+        "line_per_dimension": [
+            87
+        ]
+    },
+    {
+        "array_name": "aximB",
+        "dimensions": 1,
+        "size_per_dimension": [
+            1024
+        ],
+        "line_per_dimension": [
+            87
+        ]
+    }
+]

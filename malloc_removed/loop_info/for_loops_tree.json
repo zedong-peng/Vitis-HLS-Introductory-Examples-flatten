@@ -1,0 +1,15 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/malloc_removed/combined.c)",
+    "children": [
+        {
+            "line": 156,
+            "tripcount": 31,
+            "name": "for_loop Line:156"
+        },
+        {
+            "line": 165,
+            "tripcount": 31,
+            "name": "for_loop Line:165"
+        }
+    ]
+}

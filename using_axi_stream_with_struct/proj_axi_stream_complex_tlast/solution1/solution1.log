@@ -1,0 +1,20 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 200MHz 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-1510] Running: csim_design 
+WARNING: [HLS 200-1998] cannot find relative file path '../../example_test.cpp' in directory(s): /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/using_axi_stream_with_struct/proj_axi_stream_complex_tlast/solution /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/using_axi_stream_with_struct
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [HLS 200-627] Cannot find C test bench. Please specify test bench files using 'add_files -tb'.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.05 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.12 seconds; current allocated memory: 0.062 MB.

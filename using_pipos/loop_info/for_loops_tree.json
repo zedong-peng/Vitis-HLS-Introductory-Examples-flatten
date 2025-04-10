@@ -1,0 +1,25 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/using_pipos/combined.cpp)",
+    "children": [
+        {
+            "line": 58,
+            "tripcount": 100,
+            "name": "for_loop Line:58"
+        },
+        {
+            "line": 67,
+            "tripcount": 100,
+            "name": "for_loop Line:67"
+        },
+        {
+            "line": 74,
+            "tripcount": 100,
+            "name": "for_loop Line:74"
+        },
+        {
+            "line": 81,
+            "tripcount": 100,
+            "name": "for_loop Line:81"
+        }
+    ]
+}

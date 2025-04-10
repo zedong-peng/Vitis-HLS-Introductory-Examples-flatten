@@ -1,0 +1,25 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/simple_fifos/combined.cpp)",
+    "children": [
+        {
+            "line": 59,
+            "tripcount": 100,
+            "name": "for_loop Line:59"
+        },
+        {
+            "line": 69,
+            "tripcount": 100,
+            "name": "for_loop Line:69"
+        },
+        {
+            "line": 77,
+            "tripcount": 100,
+            "name": "for_loop Line:77"
+        },
+        {
+            "line": 85,
+            "tripcount": 100,
+            "name": "for_loop Line:85"
+        }
+    ]
+}

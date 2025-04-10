@@ -1,0 +1,22 @@
+[
+    {
+        "array_name": "A",
+        "dimensions": 1,
+        "size_per_dimension": [
+            50
+        ],
+        "line_per_dimension": [
+            18
+        ]
+    },
+    {
+        "array_name": "B",
+        "dimensions": 1,
+        "size_per_dimension": [
+            50
+        ],
+        "line_per_dimension": [
+            18
+        ]
+    }
+]

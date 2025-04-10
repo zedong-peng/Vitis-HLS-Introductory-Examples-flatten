@@ -1,0 +1,12 @@
+[
+    {
+        "array_name": "outTop",
+        "dimensions": 1,
+        "size_per_dimension": [
+            1024
+        ],
+        "line_per_dimension": [
+            87
+        ]
+    }
+]

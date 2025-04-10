@@ -1,0 +1,20 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/free_running_kernel_remerge_ii4to1/combined.cpp)",
+    "children": [
+        {
+            "line": 50,
+            "tripcount": 16,
+            "name": "for_loop Line:50"
+        },
+        {
+            "line": 61,
+            "tripcount": 16,
+            "name": "for_loop Line:61"
+        },
+        {
+            "line": 72,
+            "tripcount": 16,
+            "name": "for_loop Line:72"
+        }
+    ]
+}

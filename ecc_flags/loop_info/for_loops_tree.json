@@ -1,0 +1,20 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/ecc_flags/combined.cpp)",
+    "children": [
+        {
+            "line": 41,
+            "tripcount": 10,
+            "name": "for_loop Line:41"
+        },
+        {
+            "line": 50,
+            "tripcount": 10,
+            "name": "for_loop Line:50"
+        },
+        {
+            "line": 59,
+            "tripcount": 10,
+            "name": "for_loop Line:59"
+        }
+    ]
+}

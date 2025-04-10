@@ -1,0 +1,17 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/perfect_loop/combined.cpp)",
+    "children": [
+        {
+            "line": 58,
+            "tripcount": 16,
+            "name": "for_loop Line:58",
+            "children": [
+                {
+                    "line": 60,
+                    "tripcount": 16,
+                    "name": "for_loop Line:60"
+                }
+            ]
+        }
+    ]
+}

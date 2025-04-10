@@ -1,0 +1,22 @@
+[
+    {
+        "array_name": "vecIn",
+        "dimensions": 1,
+        "size_per_dimension": [
+            100
+        ],
+        "line_per_dimension": [
+            47
+        ]
+    },
+    {
+        "array_name": "vecOut",
+        "dimensions": 1,
+        "size_per_dimension": [
+            100
+        ],
+        "line_per_dimension": [
+            47
+        ]
+    }
+]

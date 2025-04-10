@@ -1,0 +1,12 @@
+[
+    {
+        "array_name": "din",
+        "dimensions": 1,
+        "size_per_dimension": [
+            32
+        ],
+        "line_per_dimension": [
+            142
+        ]
+    }
+]

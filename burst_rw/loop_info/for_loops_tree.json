@@ -1,0 +1,22 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/burst_rw/combined.cpp)",
+    "children": [
+        {
+            "line": 49,
+            "tripcount": 16,
+            "name": "for_loop Line:49",
+            "children": [
+                {
+                    "line": 56,
+                    "tripcount": 16,
+                    "name": "for_loop Line:56"
+                },
+                {
+                    "line": 66,
+                    "tripcount": 16,
+                    "name": "for_loop Line:66"
+                }
+            ]
+        }
+    ]
+}

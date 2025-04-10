@@ -1,0 +1,13 @@
+[
+    {
+        "array_name": "A",
+        "dimensions": 2,
+        "size_per_dimension": [
+            3,
+            3
+        ],
+        "line_per_dimension": [
+            75
+        ]
+    }
+]

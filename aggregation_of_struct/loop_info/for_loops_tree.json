@@ -1,0 +1,10 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/aggregation_of_struct/combined.cpp)",
+    "children": [
+        {
+            "line": 52,
+            "tripcount": 10,
+            "name": "for_loop Line:52"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Translation Unit (/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/using_vectors/combined.cpp)",
+    "children": [
+        {
+            "line": 52,
+            "tripcount": 16,
+            "name": "for_loop Line:52"
+        },
+        {
+            "line": 59,
+            "tripcount": 32,
+            "name": "for_loop Line:59"
+        },
+        {
+            "line": 67,
+            "tripcount": 16,
+            "name": "for_loop Line:67"
+        },
+        {
+            "line": 78,
+            "tripcount": 16,
+            "name": "for_loop Line:78"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "array_name": "mem",
+        "dimensions": 1,
+        "size_per_dimension": [
+            128
+        ],
+        "line_per_dimension": [
+            52
+        ]
+    }
+]

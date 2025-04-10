@@ -1,0 +1,122 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'user' on host 'RTX4090' (Linux_x86_64 version 6.8.0-52-generic) on Fri Apr 11 01:12:58 CST 2025
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'run_hls.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset project 
+INFO: [HLS 200-10] Creating and opening project '/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project'.
+INFO: [HLS 200-1510] Running: set_top inputdatamover 
+INFO: [HLS 200-1510] Running: add_files combined.cpp 
+INFO: [HLS 200-10] Adding design file 'combined.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -reset solution1 
+INFO: [HLS 200-10] Creating and opening solution '/home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 10 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 226.258 MB.
+INFO: [HLS 200-10] Analyzing design file 'combined.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'data_type' (/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_fft.h:97:77)
+WARNING: [HLS 207-5292] unused parameter 'cp_len_enable' (/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_fft.h:121:66)
+WARNING: [HLS 207-5292] unused parameter 'scaling_opt' (/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_fft.h:134:68)
+WARNING: [HLS 207-5292] unused parameter 'scaling_opt' (/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_fft.h:311:71)
+WARNING: [HLS 207-5292] unused parameter 'has_ovflo' (/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_fft.h:324:66)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 3.42 seconds. CPU system time: 0.44 seconds. Elapsed time: 4.16 seconds; current allocated memory: 229.531 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 176 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 17 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 13 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 13 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 13 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 13 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 13 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 15 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 38 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 44 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 44 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/user/zedongpeng/workspace/Vitis-HLS-Introductory-Examples-flatten/interface_stream/project/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'hls::ip_fft::config_t<config1>::setDir(bool, unsigned int)' into 'inputdatamover(bool, hls::stream<hls::ip_fft::config_t<config1>, 0>&, hls::stream<std::complex<ap_fixed<16, 1, (ap_q_mode)5, (ap_o_mode)3, 0> >, 0>&, hls::stream<std::complex<ap_fixed<16, 1, (ap_q_mode)5, (ap_o_mode)3, 0> >, 0>&)' (combined.cpp:75:12)
+INFO: [HLS 214-131] Inlining function 'hls::ip_fft::config_t<config1>::setSch(unsigned int, unsigned int)' into 'inputdatamover(bool, hls::stream<hls::ip_fft::config_t<config1>, 0>&, hls::stream<std::complex<ap_fixed<16, 1, (ap_q_mode)5, (ap_o_mode)3, 0> >, 0>&, hls::stream<std::complex<ap_fixed<16, 1, (ap_q_mode)5, (ap_o_mode)3, 0> >, 0>&)' (combined.cpp:76:12)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 'out_strm' with compact=bit mode in 32-bits (combined.cpp:73:0)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 'in' with compact=bit mode in 32-bits (combined.cpp:73:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< L0> at combined.cpp:79:5 
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.98 seconds. CPU system time: 0.38 seconds. Elapsed time: 8.13 seconds; current allocated memory: 230.926 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 230.926 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 231.000 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 231.000 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 252.613 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 252.863 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'inputdatamover' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'inputdatamover_Pipeline_L0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'L0'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 253.871 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 253.871 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'inputdatamover' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 254.094 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 254.094 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'inputdatamover_Pipeline_L0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'inputdatamover_Pipeline_L0' pipeline 'L0' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'inputdatamover_Pipeline_L0'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 254.094 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'inputdatamover' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'inputdatamover/direction' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'inputdatamover/config_strm' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'inputdatamover/in_r' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'inputdatamover/out_strm' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'inputdatamover' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'inputdatamover'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 254.188 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 257.625 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 259.316 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for inputdatamover.
+INFO: [VLOG 209-307] Generating Verilog RTL for inputdatamover.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 350.14 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 6.66 seconds. CPU system time: 0.84 seconds. Elapsed time: 12.58 seconds; current allocated memory: 33.246 MB.
+INFO: [HLS 200-1510] Running: close_solution 
+INFO: [HLS 200-112] Total CPU user time: 7.51 seconds. Total CPU system time: 0.96 seconds. Total elapsed time: 13.48 seconds; peak allocated memory: 259.504 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Fri Apr 11 01:13:11 2025...
